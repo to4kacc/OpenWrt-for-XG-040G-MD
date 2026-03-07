@@ -2,11 +2,19 @@
 
 OpenWrt firmware for NOKIA BELL XG-040G-MD
 
-编译脚本基于 [Cairongzeng: Add support Nokia Bell XG-040G-MD](https://github.com/Cairongzeng/openwrt/tree/xg040gmd) , [Actions-OpenWrt](https://github.com/xuxin1955/Actions-OpenWrt) 修改。
+源仓库采用：[https://github.com/xiangtailiang/openwrt](https://github.com/xiangtailiang/openwrt)
 
-Image 基于 OpenWrt main (snapshot) 分支构建，包含 luci，不包含中文语言包及其他不必要的包，与其他常见的官方 image 类似，尽可能保持小体积。
+- 已完美适配 SkyHigh 闪存，运行稳定（采用官方 Robust Read Workaround 补丁）
+- Image 基于 OpenWrt 25.12 稳定版或 main (snapshot) 分支构建
+- 包含 luci，不包含中文语言包及其他不必要的包，尽可能保持小体积
 
-**目前没有经过刷机测试，请勿直接使用**。
+## 运行截图
+
+### 系统概览
+![System Overview](shot/shot1.png)
+
+### 接口与网络
+![Interfaces](shot/shot2.png)
 
 ## Docs
 
